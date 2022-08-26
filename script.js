@@ -1,5 +1,6 @@
 let music = new Audio("computerwav-14702.mp3");
 let reset = document.getElementById("reset");
+let image = document.getElementById("wonImg");
 
 let Turn = "X";
 let gameOver = false;
@@ -30,6 +31,7 @@ const checkWin = () => {
     ) {
       document.querySelector(".info").innerText =
         boxtext[e[0]].innerText + " won";
+      image.style.width = "20vw";
       gameOver = true;
     }
   });
@@ -63,4 +65,5 @@ reset.addEventListener("click", () => {
   Turn = "X";
   gameOver = false;
   document.getElementsByClassName("info")[0].innerText = "Turn for " + Turn;
+  image.style.width = "0";
 });
