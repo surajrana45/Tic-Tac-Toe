@@ -90,4 +90,5 @@ nav ul {
 #wonImg {
   width: 0px;
   transition: width 1s ease-in-out;
+  margin-top: 8px;
 }
