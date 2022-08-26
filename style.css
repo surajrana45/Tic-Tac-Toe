@@ -68,12 +68,13 @@ nav ul {
 #reset {
   margin: 0 23px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: bolder;
-  background-color: rgb(162, 231, 162);
+
+  background-color: rgb(54, 66, 66);
   padding: 1px 18px;
   border-radius: 8px;
   font-size: 15px;
   cursor: pointer;
+  color: rgb(255, 255, 255);
 }
 @media screen and (max-width: 800px) {
   .gameContainer {
