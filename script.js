@@ -31,7 +31,7 @@ const checkWin = () => {
     ) {
       document.querySelector(".info").innerText =
         boxtext[e[0]].innerText + " won";
-      image.style.width = "20vw";
+      image.style.width = "19vw";
       gameOver = true;
     }
   });
@@ -65,5 +65,5 @@ reset.addEventListener("click", () => {
   Turn = "X";
   gameOver = false;
   document.getElementsByClassName("info")[0].innerText = "Turn for " + Turn;
-  image.style.width = "0";
+  image.style.width = "0vw";
 });
